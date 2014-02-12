@@ -1,0 +1,62 @@
+字体：
+
+HelveticaNeue-LightCond
+
+NSString * const webViewFont = @"HelveticaNeue-LightCond";
+
+#import "UIFont+HibuSearch.h"
++ (UIFont*)hibuFontOfSize:(CGFloat)size
+{
+    return [UIFont fontWithName:@"HelveticaNeue" size:size];
+}
+
++ (UIFont*)hibuLightFontOfSize:(CGFloat)size;
+{
+    return [UIFont fontWithName:@"HelveticaNeue-Light" size:size];
+}
+
++ (UIFont*)hibuBoldFontOfSize:(CGFloat)size;
+{
+    return [UIFont fontWithName:@"HelveticaNeue-Bold" size:size];
+}
+
++ (UIFont*)hibuCondensedFontOfSize:(CGFloat)size
+{
+    // Not checked
+    return [UIFont fontWithName:@"HelveticaNeue-Condensed" size:size];
+}
+
++ (UIFont*)hibuLightCondensedFontOfSize:(CGFloat)size
+{
+    return [UIFont fontWithName:@"HelveticaNeue-LightCond" size:size];
+}
+
++ (UIFont*)hibuLightCondensedObliqueFontOfSize:(CGFloat)size
+{
+    return [UIFont fontWithName:@"HelveticaNeue-LightCondObl" size:size];    
+}
+
++ (UIFont*)hibuThinCondensedFontOfSize:(CGFloat)size
+{
+    return [UIFont fontWithName:@"HelveticaNeue-ThinCond" size:size];
+}
+
++ (UIFont*)hibuMediumCondensedFontOfSize:(CGFloat)size
+{
+    return [UIFont fontWithName:@"HelveticaNeue-MediumCond" size:size];
+}
+
++ (UIFont*)hibuBoldCondensedFontOfSize:(CGFloat)size
+{
+    return [UIFont fontWithName:@"HelveticaNeue-CondensedBold" size:size];
+}
+
++ (UIFont*)hibuHeavyCondensedFontOfSize:(CGFloat)size
+{
+    return [UIFont fontWithName:@"HelveticaNeue-HeavyCond" size:size];
+}
+
++ (UIFont*)hibuBlackCondensedFontOfSize:(CGFloat)size
+{
+    return [UIFont fontWithName:@"HelveticaNeue-CondensedBlack" size:size];
+}

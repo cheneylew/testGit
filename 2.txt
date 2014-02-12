@@ -1,3 +1,0 @@
-add some content
-add second line in testgit1.
-add third line in testGit2.
